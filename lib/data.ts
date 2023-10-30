@@ -36,28 +36,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Teaching Assistant Coding Ninjas",
+    location: "Remote",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      " Assisted 50+ students in learning C++ and Data Structures and Algorithms Took doubt session and resolved 250+ doubts with an average rating of 4.62 Helped students in their assignments",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Executive at MUIEEE",
+    location: "Indore , MP",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "As an Executive at the C/P team at MUIEEE, I mentored and guided my team members across various programming sections, helping them upskill themselves and excel in their role , to participate in coding contests and sharpen their problem-solving abilities. Together, we strive to achieve our goals and drive success for our organization",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
   },
 ] as const;
 
