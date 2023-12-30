@@ -17,23 +17,15 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>About us</SectionHeading>
       <p className="mb-3">
-        while graduating with a degree in{" "}
-        <span className="font-medium">Computer Science engineering</span>, I decided to pursue my
-        passion for programming. I have learned{" "}
-        <span className="font-medium">full-stack web development in Mern Technology</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">have solved</span> over
-        400+ DSA problems on leetcode , codestudio and different platforms beside problem solving my devlopment techstack 
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, Express.js  and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">Internship / contract </span> as a software
-        developer.
+        Welcome to our agency, where a team of talented individuals converges to
+        transform ideas into reality. Specializing in crafting bespoke websites
+        and mobile apps for diverse purposes, we're dedicated to bringing your
+        vision to life with creativity and precision. Elevate your online
+        presence with our team's expertise—crafting engaging and responsive
+        websites that captivate audiences and leave a lasting impression. Let
+        your digital footprint reflect innovation and user-centric design.
       </p>
     </motion.section>
   );

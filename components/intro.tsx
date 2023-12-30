@@ -64,7 +64,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Welcome to Agency Name,</span>
+        <span className="font-bold">Welcome to FreelanceHub,</span>
         <span className="font-bold">where we fuse cutting-edge technology to craft engaging and secure websites and mobile apps.</span>
         <span className="font-bold"> Our expertise ensures user satisfaction, robust security, and SEO-friendly solutions, propelling your brand to digital excellence.</span>
          
@@ -90,14 +90,14 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
-        <a
+        {/* <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </a> */}
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
