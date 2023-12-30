@@ -9,6 +9,8 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import pp from "../public/n-pp.jpg";
+
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src=""
+              src={pp}
               alt="Ricardo portrait"
               width="192"
               height="192"
@@ -58,15 +60,14 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-1xl font-light !leading-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Aalok</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold"> MERN Tech</span> Currently 3rd year BTech Undergrad . I can Create
-         <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Welcome to Agency Name,</span>
+        <span className="font-bold">where we fuse cutting-edge technology to craft engaging and secure websites and mobile apps.</span>
+        <span className="font-bold"> Our expertise ensures user satisfaction, robust security, and SEO-friendly solutions, propelling your brand to digital excellence.</span>
+         
       </motion.h1>
 
       <motion.div
