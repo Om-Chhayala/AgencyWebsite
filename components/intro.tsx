@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import pp from "../public/n-pp.jpg";
+import pp from "../public/hello.webp";
 
 
 export default function Intro() {
