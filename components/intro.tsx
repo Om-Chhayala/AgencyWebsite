@@ -64,9 +64,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Welcome to FreelanceHub,</span>
-        <span className="font-bold">where we fuse cutting-edge technology to craft engaging and secure websites and mobile apps.</span>
-        <span className="font-bold"> Our expertise ensures user satisfaction, robust security, and SEO-friendly solutions, propelling your brand to digital excellence.</span>
+        <span className="font-normal">Welcome to FreelanceHub,</span>
+        <span className="font-normal">where we fuse cutting-edge technology to craft engaging and secure websites and mobile apps.</span>
+        <span className="font-normal"> Our expertise ensures user satisfaction, robust security, and SEO-friendly solutions, propelling your brand to digital excellence.</span>
          
       </motion.h1>
 

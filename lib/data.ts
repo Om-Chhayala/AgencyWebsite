@@ -1,11 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import ecommerce from "@/public/ecommerce.png";
-import netflix from "@/public/netflix.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import threeDportfolio from "@/public/threeDportfolio.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import ecom from "@/public/e-com.png"
+import videocall from "@/public/video-call.png"
 
 export const links = [
   {
@@ -55,25 +54,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "E-commerce Application",
+    title: "3D portfolio Website",
     description:
-      "Developed an E-commerce application with Features - Cart function , Filter product, place and Track Order , Integrated Payment gateway and Search box ",
-    tags: ["React", "Node.js", "MongoDB", "Css", "Express.js"],
-    imageUrl: ecommerce,
-  },
-  {
-    title: "Netflix Clone",
-    description:
-      "Developed a Full-Stack MERN Application Functionality inlcudes login , signup , Responsive Trailer of movie and most resemble with Netflix web app",
-    tags: ["React", "Express.js", "Node.js", "Css", "MongoDB"],
-    imageUrl: netflix,
+      "We designed this website in immersive 3D, creating a visually captivating experience. Explore seamless interactivity, making your online presence truly unforgettable.",
+    tags: ["ThreeJS", "Framer Motion", "TailwindCSS","TypeScript",],
+    imageUrl: threeDportfolio,
+    link:"omchhayala.vercel.app"
   },
   {
     title: "Video Call Application",
     description:
       "Developed Video call based web application using WebRTC , Sockets.io and frontend on Reactjs.Functionality inlcudes Video Calling using a room Id which should be same for both the users",
     tags: ["React", "Sockets.io", "webRTC", "CSS"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: videocall,
+    link:"aalok-video-call-app.vercel.app/"
+  },
+  {
+    title: "E-com Website",
+    description:
+      "Developed a Full-Stack MERN Application Functionality inlcudes login and signup using authentication tools and having various Functionality which gives user a seemless Experience",
+    tags: ["React", "Express.js", "Node.js", "Css", "MongoDB"],
+    imageUrl: ecom,
+    link:"aalokshop.vercel.app/"
   },
   {
     title: "Note-Taking Application",
@@ -81,24 +83,29 @@ export const projectsData = [
       "Developed Note Taking App on which user can create , Update , delete and view the note with integrated rich text editor and search box",
     tags: ["React", "Node.js", "Express.js", "MongoDB"],
     imageUrl: wordanalyticsImg,
+    link:"omchhayala.vercel.app"
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "Tailwind CSS",
+  "MUI",
+  "DaisyUI",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
+  "Express.Js",
+  "SQL DataBases",
   "MongoDB",
+  "Prisma ORM",
   "Recoil",
-  "Express",
-  "C++",
-  "DSA",
-  "JAVA"
+  "Redux",
+  "Flutter",
+  "Getx",
+  "Dart",
 
 ] as const;
