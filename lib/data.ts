@@ -67,7 +67,7 @@ export const projectsData = [
       "We designed this website in immersive 3D, creating a visually captivating experience. Explore seamless interactivity, making your online presence truly unforgettable.",
     tags: ["ThreeJS", "Framer Motion", "TailwindCSS","TypeScript",],
     imageUrl: threeDportfolio,
-    link:"omchhayala.vercel.app"
+    link:"https://omchhayala.vercel.app"
   },
   {
     title: "Video Call Application",
