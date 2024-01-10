@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       "worked on Web and Android devlopment created dynamic websites , components in accordance to figma design Skills - React js , Node js , Express js , Flutter , Jira , Problem Solving ",
     icon: React.createElement(LuGraduationCap),
-    date: "01/11/2023 to 01/01/2024",
+    date: "01/02/2023 (currently working)" ,  //shubham's Experience
   },
   {
     title: "Teaching Assistant Coding Ninjas",
@@ -48,7 +48,7 @@ export const experiencesData = [
     description:
       " Assisted 50+ students in learning C++ and Data Structures and Algorithms Took doubt session and resolved 250+ doubts with an average rating of 4.62 Helped students in their assignments",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "01/06/2022 to 15/10/2022",
   },
   {
     title: "Executive at MUIEEE",
