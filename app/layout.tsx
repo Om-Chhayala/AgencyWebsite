@@ -10,8 +10,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Roboto({ weight: ["500"],subsets: ["latin"] });
 
 export const metadata = {
-  title: "Aalok | Personal Portfolio",
-  description: "Aalok is a full-stack developer",
+  title: "FreeLancers HUb",
+  description: "We Create Solution for your every problem",
 };
 
 export default function RootLayout({

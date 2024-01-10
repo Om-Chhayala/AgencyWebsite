@@ -35,6 +35,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Devlopment Engineering Intern - MittArv",
+    location: "Hybrid",
+    description:
+      "worked on Web and Android devlopment created dynamic websites , components in accordance to figma design Skills - React js , Node js , Express js , Flutter , Jira , Problem Solving ",
+    icon: React.createElement(LuGraduationCap),
+    date: "01/11/2023 to 01/01/2024",
+  },
+  {
     title: "Teaching Assistant Coding Ninjas",
     location: "Remote",
     description:
@@ -67,7 +75,7 @@ export const projectsData = [
       "Developed Video call based web application using WebRTC , Sockets.io and frontend on Reactjs.Functionality inlcudes Video Calling using a room Id which should be same for both the users",
     tags: ["React", "Sockets.io", "webRTC", "CSS"],
     imageUrl: videocall,
-    link:"aalok-video-call-app.vercel.app/"
+    link:"https://aalok-video-call-app.vercel.app/"
   },
   {
     title: "E-com Website",
@@ -75,7 +83,7 @@ export const projectsData = [
       "Developed a Full-Stack MERN Application Functionality inlcudes login and signup using authentication tools and having various Functionality which gives user a seemless Experience",
     tags: ["React", "Express.js", "Node.js", "Css", "MongoDB"],
     imageUrl: ecom,
-    link:"aalokshop.vercel.app/"
+    link:"https://aalokshop.vercel.app/"
   },
   {
     title: "Note-Taking Application",
@@ -83,7 +91,7 @@ export const projectsData = [
       "Developed Note Taking App on which user can create , Update , delete and view the note with integrated rich text editor and search box",
     tags: ["React", "Node.js", "Express.js", "MongoDB"],
     imageUrl: wordanalyticsImg,
-    link:"omchhayala.vercel.app"
+    link:"https://take-your-notes.vercel.app/"
   },
 ] as const;
 
